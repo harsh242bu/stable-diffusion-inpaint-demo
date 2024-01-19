@@ -55,7 +55,7 @@ if __name__ == "__main__":
         "--img_file",
         type=str,
         default="images/dog/dog.png",
-        required=True,
+        # required=True,
         help="Path to image file",
     )
     parser.add_argument(
